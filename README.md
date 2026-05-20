@@ -17,11 +17,7 @@ While Transformer-based architectures have dominated Multivariate Time Series Fo
 
 FAiT is proposed to explicitly rectify this spectral bias internally, enabling fine-grained control over evolving multi-scale patterns without relying on fixed spectral bases.
 
-<p align="center">
-  <img src="./figures/Motivation.png" alt="Motivation of FAiT" width="85%">
-  <br>
-</p>
-
+![](./figures/Motivation.png)
 
 ---
 
