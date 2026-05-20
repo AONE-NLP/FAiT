@@ -28,11 +28,7 @@ FAiT achieves state-of-the-art performance through two novel complementary compo
 * **🔄 Inverted Attention:** Interprets the standard attention map as a learnable low-pass operator and explicitly constructs a complementary high-pass branch by inverting the attention matrix. This recovers attenuated transient signals and mitigates over-smoothing.
 * **🎛️ Dynamic Temporal-Frequency Modulation (DTFM):** Synthesizes instance-conditioned weights to adaptively re-calibrate the energy of spectral sub-bands, providing fine-grained, dynamic control over time-varying frequency responses.
 
-<p align="center">
-  <img src="./figures/model.png" alt="Model Architecture" width="90%">
-  <br>
-</p>
-
+![](./figures/model.png)
 
 ---
 
@@ -43,34 +39,22 @@ FAiT consistently outperforms state-of-the-art Transformer-based and frequency-e
 ### Long-term Forecasting
 FAiT achieves the best or second-best performance in the vast majority of cases across diverse domains (e.g., ETT, Electricity, Traffic, Weather).
 
-<p align="center">
-  <img src="./figures/table1.png" alt="" width="100%">
-  <br>
-</p>
+![](./figures/table1.png)
 
 ### Short-term Forecasting 
 On complex urban traffic datasets (PEMS03/04/07/08), FAiT demonstrates consistent superiority, remaining highly effective under volatile spatial-temporal dynamics.
 
-<p align="center">
-  <img src="./figures/table2.png" alt="" width="100%">
-  <br>
-</p>
+![](./figures/table2.png)
 
 ### Qualitative Visualization
 
 #### **Self-attention Analysis**
 
-<p align="center">
-  <img src="./figures/self_attention.png" alt="" width="80%">
-  <br>
-</p>
+![](./figures/self_attention.png)
 
 #### **Qualitative Analysis of Non-Stationarity**
 
-<p align="center">
-  <img src="./figures/case_study.png" alt="" width="100%">
-  <br>
-</p>
+![](./figures/case_study.png)
 
 ---
 
